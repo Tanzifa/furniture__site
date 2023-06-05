@@ -1,0 +1,122 @@
+.header__all .header__icon .language{
+    border: 1px solid var(--color-black);
+    width: 3.2rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+}
+
+.header__all .header__icon .language span{
+    display: block;
+    margin: 0 auto;
+text-align:center;
+    line-height: 3rem;
+}
+.header .header__all .header__menu .header__icon{
+    display: flex;
+    gap:3.1rem ;
+   
+   
+}
+
+
+ .header .header__all .header__menu .header__icon  .search{
+    font-size: 2.5rem;
+ }
+
+ .header .header__all .header__menu .header__shop{
+    display: flex;
+    gap: 3.7rem;
+ }
+
+
+ .heading .home__heading .btn a{
+    color: var(--color-white);
+ }
+
+
+ .about .about__boxes {
+    margin-top: 4.9rem;
+    gap: 6.6rem;
+    display: flex;
+    align-items: center;
+ }
+
+ .about .about__boxes .about__photo {
+    max-width: 68rem;
+    max-height: 41.2rem;
+
+ }
+ .about .about__boxes  .about__content p{
+    color: var(--color-black);
+ }
+ .about .about__boxes  .about__content{
+    max-width: 56.3rem;
+ }
+ .about .about__boxes  .about__content .btn{
+    margin-top: 4.4rem;
+ border: 1px solid var(--color-primary);
+ background:none;
+ color: var(--color-primary);
+ }
+
+
+ .product .product__boxes{
+   display:grid;
+   grid-template-columns: repeat(4,1fr);
+   row-gap: 4.5rem;
+   column-gap: 2rem;
+   
+
+ } 
+ .product .product__boxes .product__box {
+   position: relative;
+ }
+ .product .product__boxes .product__box .like{
+   width: 4.6rem;
+   height: 3.8rem;
+   position: absolute;
+   top:1.5rem;
+   right: 1.5rem;
+ }
+
+ .product .product__boxes .product__box .subtitle p{
+   margin-top: 2.2rem;
+   font-size: 2rem;
+   line-height: 2.8rem;
+   color: var(--color-black);
+ }
+
+ 
+ .product .product__boxes .product__box .subtitle span{
+   display: block;
+   margin-top: 2.2rem;
+   color: var(--color-primary);
+   font-size: 2rem;
+   line-height: 2.8rem;
+   font-weight: 700;
+ }
+
+ .product .line img{
+   max-width: 41.9rem;
+ }
+ .collections{
+   background-color:var(--color-dustyrose);
+   padding-bottom: 7.4rem;
+ }
+
+ .collections h2{
+ padding-top: 8.1rem;
+ }
+
+ .collections .collection__boxes{
+   margin-top: 5.9rem;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 2rem;
+ }
+
+ 
+ .collections .line img{
+   max-width: 41.9rem;
+   margin-bottom: 7rem;
+ }
