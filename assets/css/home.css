@@ -54,11 +54,11 @@
    
 
 
-.home__heading .header__img-container {
+.home__heading .header__img {
     position: relative;
 }
 
-.home__heading .header__img-container::before {
+.home__heading .header__img::before {
     content: "";
     position: absolute;
     top: 0;
@@ -67,21 +67,11 @@
     height: 100%;
     background: url('./assets/img/Rectangle 1.png') no-repeat;
     background-size: cover;
-    z-index: 5;
-}
-
-.home__heading .header__img-container::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 30%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.5);
     -webkit-filter: blur(10px);
     filter: blur(10px);
-    z-index: 10;
+    z-index: -1;
 }
+
 
 
 
