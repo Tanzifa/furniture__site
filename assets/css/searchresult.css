@@ -1,0 +1,18 @@
+.search__resuls{
+    margin-top: 6rem;
+}
+
+
+
+.search__resuls .search__heading p{
+    margin-top: 5rem;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    color: var(--color-black);
+    opacity: 0.8;
+}
+
+.search__resuls .product__boxes{
+    margin-top: 5rem;
+
+}
