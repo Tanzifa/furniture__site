@@ -35,15 +35,16 @@
 }
 
 .heading .home__heading{
-    
-    display: flex;
     position: relative;
+    display: flex;
     align-items: center;
  
 } 
 
 .heading .furniture__heading{
-    max-width: 83rem;
+   max-width: 83rem;
+    /* position: absolute;
+    z-index: 10; */
 }
 
 .heading .furniture__heading p{
@@ -55,29 +56,28 @@
 
 
 .home__heading .header__img {
+   z-index: -1;
+    width: 91.3rem;
+   height: 75.7rem;
+    background-image: url('../img/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
     position: relative;
 }
 
-.home__heading .header__img::before {
-    content: "";
+.home__heading .header__img img {
     position: absolute;
-    top: 0;
     left: 0;
-    width: 30%;
+    top: 0;
+    width: 100%;
     height: 100%;
-    background: url('./assets/img/Rectangle 1.png') no-repeat;
-    background-size: cover;
-    -webkit-filter: blur(10px);
+    object-fit: cover;
+    clip-path: polygon(0 0, 30% 0, 30% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 0, 30% 0, 30% 100%, 0% 100%);
     filter: blur(10px);
-    z-index: -1;
+    -webkit-filter: blur(10px);
 }
-
-
-
-
-
-
-
 
 
 
@@ -86,8 +86,7 @@
 }
 
 .heading .header__img div {
-    max-width: 91.3rem;
-    max-height: 75.7rem;
+    
 }
 
 /* .home__heading {
@@ -115,17 +114,23 @@
     max-width: 33rem;
     max-height: 19.3rem;
 }
-.heading .heading__boxes  .heading__box img{
+.heading .heading__boxes  .heading__box{
     position: relative;
+   background: linear-gradient(to bottom, transparent 0%,blur(7.5px) 80%);
 }
-.heading .heading__boxes  .heading__box div{
 
-
+/* position: absolute;
     max-width: 33rem;
     max-height: 5.5rem;
-}
+    background: linear-gradient(rgba(250, 247, 247, 0.5), rgba(0, 0, 0, 0.5));
+    background-blur: blur(10px);
+    margin-top: -20px;
+    z-index: 10; */
+
 
 .heading .heading__boxes  .heading__box div span{
+    display: block;
+    z-index: 10;
     text-align: center;
 }
 
@@ -180,6 +185,9 @@ padding-top: 6.2rem;
 .discount .discount__box .btn{
     margin-top:4.2rem;
     margin-bottom: 7.6rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
 }
 
 .discount .discount__box .btn a{
@@ -208,4 +216,36 @@ padding-top: 6.2rem;
 .product .most__popular{
    margin-top: 12.8rem;
    margin-bottom: 10rem;
+}
+
+.contact{
+    margin-top: 12.8rem;
+}
+
+.contact .contact__boxes {
+    margin-top: 5.9rem;
+    display: flex;
+    gap:13.7rem
+}
+
+.contact .contact__boxes .contact__form{
+    flex: 5;
+}
+.contact .contact__boxes .contact_photo{
+    flex: 6;
+}
+
+.contact .contact__boxes .contact__form input,textarea{
+    margin-top: 1.5rem;
+    border: 1px solid var(--color-dustyrose);
+    width: 100%;
+    padding: 1.7rem 0 1.7rem 2rem;
+    color: #B0B0B0;
+    border-radius: 1rem;
+    background: none;
+}
+
+.contact .contact__boxes .contact__form .submit{
+    background-color: var(--color-primary);
+    color:  #EAE6DF;
 }
