@@ -79,25 +79,27 @@ text-align:center;
   position: relative;
 }
  .blur{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  top: 71%;
-width: 33rem;
-height: 6rem;
-background-color: rgb(99, 98, 98);
+  top: 75%;
+  width: 33rem;
+  height: 5rem;
 
-filter: blur(0.75rem);
-z-index: 10;
+  backdrop-filter: blur(10px);
+  z-index: 10;
 }
- .collection__name{
+ /* .collection__name{
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   top: 85%;
   z-index: 30;
-}
+} */
 
-.heading__box .collection__name span{
+.heading__box  span{
 font-size:1.6rem;
 line-height: 2rem;
 color:var(--color-white);
@@ -236,8 +238,11 @@ text-align: center;
   display: flex;
   gap: 2rem;
   align-items: center;
+  opacity: 0.5;
 }
-
+.section__menu p:last-child{
+ opacity: 1;
+}
 
 .menu__line{
   width: 0.2rem;

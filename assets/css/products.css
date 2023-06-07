@@ -1,0 +1,113 @@
+ .products  .section__heading p{
+  max-width:56.3rem ;
+    margin-top: 4.8rem;
+    color:var(--color-black);
+ }
+
+  .product__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+ .sort .btn{
+    display: flex;
+   gap: 3rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: var(--color-primary);
+    background-color: transparent;
+    border: 1px solid var(--color-primary);
+    
+ }
+
+ .products__all{
+    margin-top: 5.4rem;
+ }
+
+ 
+ .ckeckbox__menu .checkboxs h5{
+    color: var(--color-primary);
+    font-size:2rem ;
+    line-height: 2.8rem;
+    font-weight: 600;
+ }
+ .ckeckbox__menu .checkboxs .collections__chechkboxs{
+    margin-top: 5.1rem;
+ }
+ .form-group {
+
+    
+    display: flex;
+    align-items: center;
+    margin-top: 2.6rem;
+    margin-bottom: 15px;
+   
+    
+  }
+  
+  .form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+   
+    display: none;
+    cursor: pointer;
+    
+  }
+  
+  .form-group label {
+    position: relative;
+    cursor: pointer;
+    font-size: 1.6rem;
+    width: max-content;
+    
+  }
+  .form-group label span {
+    width: 100%;
+    display: block;
+    width: max-content;
+    padding-left: 2.7rem;
+  } 
+  .form-group label:before {
+    content:'';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 2px solid var(--color-primary);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 0.5rem;
+  }
+  
+  .form-group input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 9px;
+    width: 6px;
+    height: 14px;
+    border: solid var(--color-primary);
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+
+  .products__all{
+    display: flex;
+    gap:10.8rem;
+    align-items: start;
+  }
+  .product__boxes{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 4.5rem;
+    column-gap: 2rem;
+  } 

@@ -1,0 +1,30 @@
+.product .product__main{
+    display: flex;
+    gap: 10.8rem;
+
+}
+
+
+
+.product__photo{
+
+ flex: 5;
+}
+
+
+.product__photos{
+    display: flex;
+    margin-top: 2.5rem;
+    gap:2.6rem ;
+}
+
+.product__content{
+   flex: 6;
+
+}
+
+.product__content h4{
+    font-size: 3.2rem;
+    line-height: 4.4rem;
+}
+
