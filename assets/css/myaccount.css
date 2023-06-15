@@ -1,0 +1,108 @@
+.myaccount__boxes{
+    margin-top: 4.9rem;
+    display: flex;
+    align-items: start;
+    gap:15.7rem ;
+}
+
+
+ .myaccount__box{
+    max-width:33rem ;
+    /* max-height: 32rem; */
+   
+    padding:4rem 5rem 4.8rem 3rem;
+    background-color:var(--color-dustyrose) ;
+    border-radius: 1rem;
+}
+
+ .myaccount__box .acoount__heading{
+
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+    font-weight: 700;
+
+    color: var(--color-black);
+    font-family: var(--header-font);
+}
+
+.myaccount__box .personal__info span{
+
+}
+
+ .myaccount__box .personal__info .personal__icon{
+    width:2.4rem ;
+    height: 2.4rem;
+}
+
+ .myaccount__box .wishlist__icon{
+    width:2rem ;
+    height: 1.722em;
+    object-fit: contain;
+}
+
+.myaccount__box .logout__icon{
+    width:2.4rem ;
+    height: 2.4rem;
+
+}
+
+.myaccount__box .personal__info{
+    margin-top:3rem ;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+   
+}
+
+.myaccount__boxes .registration__box{
+    max-width: 44.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+
+.myaccount__boxes .registration__box input{
+   
+    margin-bottom: 1.6rem;
+  border: 1px solid var(--color-dustyrose);
+  width: 100%;
+  padding: 1.7rem 0 1.7rem 2rem;
+  color: #B0B0B0;
+  border-radius: 1rem;
+  background: none;
+}
+
+.myaccount .registration__box .submit{
+   
+    background-color: var(--color-primary);
+    color:  #EAE6DF;
+}
+
+
+
+@media(max-width:976px){
+.myaccount__boxes{
+  flex-wrap: wrap;
+  justify-content: center;
+ gap: 4rem;
+}
+
+}
+@media(max-width:576px){
+    .myaccount__box{
+   padding: 3rem 2.5rem 3rem 2rem;
+    }
+    .myaccount__box .acoount__heading{
+        padding-top: 3rem;
+        font-size: 2.4rem;
+    }
+    .personal__info{
+        margin-top: 4rem;
+        font-size: 1.6rem;
+    }
+    .personal__info span{
+       width: 100%;
+    }
+    }
+     

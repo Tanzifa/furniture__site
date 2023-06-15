@@ -16,3 +16,21 @@
     line-height: 2.8rem;
     font-weight: 500;
 }
+@media(max-width:1440px){
+
+    .about__statistics  .statistictics__boxes{
+        gap: 15rem;
+    
+    }
+}
+@media(max-width:976px){
+
+    .about__statistics  .statistictics__boxes{
+        margin-top: 7rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:7rem;
+    
+    }
+}

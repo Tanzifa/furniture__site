@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+        <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/general.css">
     <link rel="stylesheet" href="./assets/css/product.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>furniture</title>
+
+    <title>product</title>
 </head>
 
 <body>
@@ -40,30 +40,42 @@
 
                 <div class="navbar">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li  class="active"><a href="#">Products</a></li>
-                        <li><a href="#">Collections</a></li>
+                        <li><a href="./home.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li  class="active"><a href="./products.html">Products</a></li>
+                        <li><a href="./collections.html">Collections</a></li>
                         <li><a href="#">Sale</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="./">Contact</a></li>
                     </ul>
                 </div>
             </div>
+            <div class="responsive__menu">
+                <p>HomeDecor</p>
+           
+            <div class="menu__icon">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+               
+            </div>
+        </div>
         </div>
     </header>
 <section class="product">
 <div class="container">
     <div class="section__menu">
-        <p>Home</p>
+      <a href="./home.html">Home</a>
         <div class="menu__line" ></div>
-        <p>Products</p>
+        <a class="go__products" href="./products.html">Products</a>
         <div class="menu__line" ></div>
-       <p > Grayson Premium Grey Wash Nest of Tables</p>
+     <p> Grayson Premium Grey Wash Nest of Tables</p>
     </div>
     <div class="product__all">
         <div class="product__main">
+            <div class="product__main__heading">
+                <h4>GRAYSON PREMIUM GREY WASH NEST OF TABLES</h4>
+            </div>
             <div class="product__photo">
-                <div class="product__main">
+                <div class="product__main__photo">
                     <img src="./assets/img/Rectangle 123.png" alt="">
                 </div>
             
@@ -81,20 +93,130 @@
             </div>
         </div>
         <div class="product__content">
-            <h4>GRAYSON PREMIUM GREY WASH NEST OF TABLES</h4>
+            <div class="product__content__heading">
+                <h4>GRAYSON PREMIUM GREY WASH NEST OF TABLES</h4>
+             </div>
             <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. </p>
             <div class="colors">
                 <span>COLORS</span>
                 <div class="color__box">
-                    <img src="./assets/img/Ellipse 6.png" alt="">
-                    <img src="./assets/img/" alt="">
+                    <div class="active__color">
+                       <div class="color__green"></div>
+                    </div>
+                    <div class="color__grey"></div>
+                    <div class="color__primary"></div>
+                    </div>
+                </div>
+                <div class="count__box">
+                    <div class="count">+</div>
+                    <div class="count__number">1</div>
+                        <div class="count">-</div>
+                    
+                </div>
+                <div class="product__price">
+                <h3>140$</h3>
+            </div>
+                <div class="shop__btns">
+                    <a class="btn" href="#">
+                        <img src="./assets/img/Cart Large Minimalistic.png" alt="">
+                        <span>BUY NOW</span>
+                    </a>
+
+            
+                        <a class="btn__nobackground" href="#">
+                            <img src="./assets/img/Vector.png" alt="">
+                            <span>ADD TO CART</span>
+                        </a>
+    
+                        </div>
                 </div>
                 
             </div>
         </div>
     </div>
     </div>
-</div>
+
 </section>
+<section class="similar__product">
+    <div class="container">
+        <h3>SIMILAR PRODUCTS</h3>
+        <div class="product__boxes">
+            <div class="product__box">
+                <div class="furniture__photo">
+                    <img src="./assets/img/Rectangle 133.png" alt="productphoto">
+                </div>
+                <div class="like">
+                    <img class="like" src="./assets/img/Group 3338.png" alt="like">
+                </div>
+                <div class="subtitle">
+                    <p>Grayson Premium Grey Wash Nest of Tables</p>
+                    <span>140$</span>
+                </div>
+
+            </div>
+            <div class="product__box">
+                <div class="furniture__photo">
+                    <img src="./assets/img/Rectangle 134.png" alt="productphoto">
+                </div>
+                <div class="like">
+                    <img class="like" src="./assets/img/Group 3338.png" alt="like">
+                </div>
+                <div class="subtitle">
+                    <p>Grayson Premium Grey Wash Nest of Tables</p>
+                    <span>140$</span>
+                </div>
+
+            </div>
+            <div class="product__box">
+                <div class="furniture__photo">
+                    <img src="./assets/img/Rectangle 135.png" alt="productphoto">
+                </div>
+                <div class="like">
+                    <img class="like" src="./assets/img/Group 3338.png" alt="like">
+                </div>
+                <div class="subtitle">
+                    <p>Grayson Premium Grey Wash Nest of Tables</p>
+                    <span>140$</span>
+                </div>
+
+            </div>
+            <div class="product__box">
+                <div class="furniture__photo">
+                    <img src="./assets/img/Rectangle 136.png" alt="productphoto">
+                </div>
+                <div class="like">
+                    <img class="like" src="./assets/img/Group 3338.png" alt="like">
+                </div>
+                <div class="subtitle">
+                    <p>Grayson Premium Grey Wash Nest of Tables</p>
+                    <span>140$</span>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="line">
+            <div class="half__line"></div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__boxes">
+            <div class="footer__heading">
+                HomeDecor
+            </div>
+            <div class="footer__content">
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui</p>
+
+                <p>+994 50 555 55 55</p>
+                <p>youremailhere@gmail.com</p>
+            </div>
+
+        </div>
+        <span class="author">©2022 All Right Reserved. Developed by Webcoder Agency</span>
+    </div>
+</footer>
     </body>
     </html>

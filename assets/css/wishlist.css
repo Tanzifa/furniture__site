@@ -1,0 +1,73 @@
+.wishlist .myaccount__boxes{
+   display: flex;
+}
+ .myaccount__box{
+   flex: 1;
+ }
+ .wishlist__boxes{
+   flex: 2;
+ }
+ 
+ .wishlist__boxes .wishlist__box{
+    display: flex;
+    margin-bottom: 2rem;
+    gap: 2rem;
+ }
+ .wishlist__boxes .wishlist__box .wishlist_product{
+   max-width: 21.4rem;
+    max-height: 15rem;
+ }
+ .wishlist__boxes .wishlist__box .wishlist_product img{
+    border-radius: 1rem;
+ }
+
+ .wishlist__boxes .wishlist__box .wishlist__product__content .wishlist__name {
+    max-width:33rem;
+    font-size:2rem;
+    line-height: 2.8rem;
+    color: var(--color-black);
+
+ }
+
+
+ .wishlist__boxes .wishlist__box .wishlist__product__content .wishlist__price{
+    margin-top:2.2rem;
+    font-size:2rem ;
+    line-height: 2.8rem;
+    color:var(--color-primary)
+ }
+
+ .wishlist__like{
+    width: 2rem;
+    height: 1.722rem;
+ }
+
+
+ .wishlist__content__box{
+    width: 100%;
+  /* gap: 30rem; */
+    display: flex;
+    justify-content: space-between;
+ }
+ .wishlist .product__box{
+   display: none;
+ }
+
+ @media(max-width:1204px){
+   .wishlist .myaccount__boxes{
+      gap: 3rem;
+   }
+ }
+ @media(max-width:976px){
+   .wishlist .myaccount__boxes{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .wishlist__boxes{
+      display: none;
+    }
+    .wishlist .product__box{
+      display:block
+    }
+ }

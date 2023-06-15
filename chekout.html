@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/general.css">
+    <link rel="stylesheet" href="./assets/css/chekout.css">
+
+    <title>chekout</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__all">
+                <div class="header__menu">
+                    <div class="header__icon">
+                        <div class="language">
+                            <span>Az</span>
+                            <!-- <img src="./assets/img/Rectangle 107.png" alt=""> -->
+                        </div>
+                        <div class="search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    <div class="heading__name">
+                        Home Decor
+                    </div>
+                    <div class="header__shop">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                </div>
+
+                <div class="navbar">
+                    <ul>
+                        <li class="active"><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Collections</a></li>
+                        <li><a href="#">Sale</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="responsive__menu">
+                <p>HomeDecor</p>
+           
+            <div class="menu__icon">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+               
+            </div>
+        </div>
+        </div>
+    </header>
+    <section class="chekout">
+        <div class="container">
+            <div class="section__menu">
+                <a href="./home.html">Home</a>
+                <div class="menu__line" ></div>
+               <a class="go__shopping__cart"    href="./shopping.html">Shopping cart</a>
+                <div class="menu__line" ></div>
+                <p class="page__name">Chekout</p>
+            </div>
+            <div class="section__heading">
+            <h2>CHECKOUT</h2>
+        </div>
+            <div class="chekout__boxes">
+                <div class="personal__information">
+                    <span>PERSONAL INFORMATION</span>
+                    <div class="personal__main">
+                    <div class="personal__content">
+                        <input type="text" value="JANE">
+                        <input type="email" value="youremail@gmail.com">
+                        <input type="text" placeholder="CITY,STREET">
+                    </div>
+                    <div class="personal__content">
+                        <input type="text" value="CURTIS">
+                        <input type="tel" placeholder="+994(--)--- -- --">
+                        <input type="number" placeholder="POSTAL CODE">
+                    </div>
+                </div>
+                </div>
+                <div class="card__information">
+                    <span>CARD INFORMATION</span>
+                    <input type="number" name="" placeholder="CARD NUMBER">
+                    <input type="text" placeholder=" EXPIRY DATE __/__/__"
+                    onfocus="(this.type='date')">
+                    <input type="number" placeholder="CW">
+                </div>
+            </div>
+
+           
+            <div class="payment__delivery__finish">
+                <div class="payment__delivery">
+                <div class="payment">
+                    <p>PAYMENT METHOD</p>
+                    <div class="payment__metod">
+                    <input type="radio" id="card" name="payment" value="CARD" class="payment__radio">
+                    <label for="card">CARD</label><br>
+                </div>
+                <div class="payment__metod">
+                    <input type="radio" id="cash" name="payment" value="CASH">
+                    <label for="cash">CASH</label><br>
+                </div>
+                </div>
+          
+            
+                <div class="delivery">
+                    <p>DELIVERY METHOD</p>
+                    <div class="payment__metod">
+                    <input type="radio" id="courier" name="delivery" value="COURIER">
+                    <label for="courier">COURIER</label><br>
+                </div>
+                <div class="payment__metod">
+                    <input type="radio" id="pickup" name="delivery" value="PICKUP">
+                    <label for="pickup">PICKUP</label><br>
+                </div>
+                </div>
+            </div>
+            <div>
+             <input type="button" value="FINISH ORDER" class="finish">
+            </div>
+            </div>
+
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__boxes">
+                <div class="footer__heading">
+                    HomeDecor
+                </div>
+                <div class="footer__content">
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui</p>
+
+                    <p>+994 50 555 55 55</p>
+                    <p>youremailhere@gmail.com</p>
+                </div>
+
+            </div>
+            <span class="author">©2022 All Right Reserved. Developed by Webcoder Agency</span>
+        </div>
+    </footer>
+     </body>
+     </html>

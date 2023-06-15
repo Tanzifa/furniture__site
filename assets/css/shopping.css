@@ -1,0 +1,160 @@
+
+.shopping__boxes{
+    display: flex;
+    align-items: start;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+
+.shopping .myaccount__box{
+    padding:3rem 3rem 2rem 3rem ;
+     /* max-height:26.5rem ; */
+} 
+
+.shopping__heading{
+    margin-top: 4.9rem;
+}
+
+   
+
+.shopping .sopping__cart{
+    margin-bottom: 1.5rem;
+    max-width: 103rem;
+    display: flex;
+    border:0.1rem solid var(--color-dustyrose) ;
+    border-radius:1rem ;
+    align-items: center;
+    padding: 1rem 5.4rem 1rem 4rem;
+    gap: 4rem;
+}
+
+
+.shopping .sopping__cart .exit{
+    font-size:1.6rem ;
+    color: var(--color-black);
+}
+
+.shopping .sopping__cart .sopping__img{
+    width:14.9rem;
+    height: 10.5rem;
+    
+}
+
+.shopping .sopping__cart .sopping__img img{
+    border-radius: 0.8rem;
+}
+
+.shopping .sopping__cart .shopping__content{
+    margin-left:1rem ;
+    max-width: 21.3rem;
+    color: var(--color-black);
+   
+}
+.shopping .sopping__cart .color__count{
+    display: flex;
+    align-items: center;
+}
+
+
+.shopping .sopping__cart .product__color{
+    width:1.8rem;
+    height: 1.886rem;
+}
+
+.shopping .sopping__cart .shopping__price{
+    margin-left: 4rem;
+    font-family: var(--header-font);
+}
+
+.count__box{
+    margin-left: 4rem;
+    display: flex;
+    gap:1rem;
+}
+
+.myaccount__box .item {
+    font-weight: 600;
+    margin-top:3.3rem ;
+display: flex;
+justify-content: space-between;
+}
+
+.myaccount__box .total{
+    font-weight: 600;
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.myaccount__box .btn{
+  margin-top: 2rem;
+}
+
+.myaccount__box .vector__line{
+    margin-top:3rem;
+    height: 0.2rem;
+    width: 100%;
+    background-color: rgb(181, 176, 176);
+    opacity: 0.5;
+  
+  }
+@media(max-width:1344px){
+
+  .shopping .sopping__cart{
+    padding: 1rem 3rem 1rem 2rem;
+    gap: 2rem;
+}
+}
+
+@media(max-width:1204px){
+
+    .shopping__boxes{
+        flex-wrap: wrap;
+    }
+    .myaccount__box  {
+       width: 100%;
+      margin: 0 auto;
+    }
+       
+    }
+    @media(max-width:976px){
+        .shopping__boxes{
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+       .shopping__carts{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+       }
+           
+
+        .shopping .sopping__cart{
+            width:28.8rem;
+            padding: 1rem 1.5rem;
+           flex-direction: column;
+           align-items: start;
+           justify-content: center;
+           height: 43.4rem;
+        }
+        .shopping .sopping__cart .sopping__img{
+            width:25.8rem;
+            height: 18.2rem;
+            
+        }
+        .shopping .sopping__cart .shopping__price{
+            width: 87%;
+        }
+        .shopping .sopping__cart .shopping__price h4{
+      text-align: end;
+        }
+       
+        }
+           
+        
+    
+  
