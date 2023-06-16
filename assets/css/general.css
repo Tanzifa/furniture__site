@@ -87,6 +87,7 @@ text-align:center;
  .heading .home__heading .btn{
   display: flex;
   gap: 2rem;
+  cursor: pointer;
  }
 
  .heading .home__heading .btn a{
@@ -174,6 +175,7 @@ section{
  border: 1px solid var(--color-primary);
  background:none;
  color: var(--color-primary);
+ cursor: pointer;
  }
 
 
@@ -319,8 +321,6 @@ section{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-    /* max-height: 32rem; 
-  */
   padding:4rem 5rem 4.8rem 3rem;
   background-color:var(--color-dustyrose) ;
   border-radius: 1rem;

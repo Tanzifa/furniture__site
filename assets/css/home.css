@@ -13,7 +13,6 @@
 
 .heading .furniture__heading{
     padding-top: 12.4rem;
-    /* flex: 8; */
     max-width: 83rem;
    
 }
@@ -31,8 +30,7 @@
   max-width: 91.3rem;
    right: 0; 
    top: 0;
-   /* float: right; */
-
+  
   z-index: -1;
    
     
@@ -124,6 +122,7 @@ padding-top: 6.2rem;
     display: flex;
     align-items: center;
     gap: 2rem;
+    cursor: pointer;
 }
 
 .discount .discount__box .btn a{
