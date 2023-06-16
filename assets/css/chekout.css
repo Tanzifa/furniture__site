@@ -85,8 +85,12 @@ align-items: center;
     margin-top: 3rem;
   }
   .chekout__boxes input{
-   width:27rem; 
+   width:26rem; 
   
+  }
+  .payment__delivery__finish{
+    
+  gap:5rem;
   }
   .finish{
   width:27rem;

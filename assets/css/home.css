@@ -110,6 +110,7 @@ padding-top: 6.2rem;
   padding-top: 3.6rem;
     max-width: 42rem;
     margin: 0 auto;
+    padding: 0 1.5rem;
     text-align: center;
     color: white;
     font-weight: 400;
@@ -162,9 +163,7 @@ padding-top: 6.2rem;
 .product .half__line{
     width: 50%;
 }
-.contact{
-    margin-top: 12.8rem;
-}
+
 .collections  .half__line{
     width: 30%;
 }

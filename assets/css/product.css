@@ -26,6 +26,7 @@
     display:grid;
     margin-top: 2.5rem;
     grid-template-columns: repeat(3,1fr);
+   
     gap:2.6rem ;
 }
 
@@ -42,9 +43,7 @@ max-width: 68rem;
    justify-content: space-between; 
 
 }
-.product__content__heading{
-    max-width: 68rem;
-}
+
 .product__content h4{
     font-size: 3.2rem;
     line-height: 4.4rem;
@@ -200,10 +199,10 @@ color: var(--color-primary);
    
 }
 .product .shop__btns .btn {
-    max-width:27rem;
+    max-width:26rem;
 }
 .product .btn__nobackground{
-   max-width: 27rem;
+   max-width: 26rem;
    
 }
 }
@@ -219,9 +218,13 @@ color: var(--color-primary);
     .similar__product h3{
         font-size: 2.4rem;
     }
+    
     .similar__product .product__boxes .product__box:not(:first-child){
       display: none;
         align-items: center;
+   
+    }
+    .product__box {
         margin: 0 auto;
     }
     .product__box{

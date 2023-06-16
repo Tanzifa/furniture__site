@@ -30,9 +30,6 @@
     
  }
 
- .products__all{
-    margin-top: 5.4rem;
- }
 
  
  .ckeckbox__menu .checkboxs h5{
@@ -110,6 +107,7 @@
   }
 
   .products__all{
+    margin-top: 5.4rem;
     display: flex;
     gap:10.8rem;
     align-items: start;
@@ -140,7 +138,7 @@
     padding: 1.7rem 2rem;
     color: var(--color-primary);
     font-size:1.6rem ;
-    width: 28rem;
+   width: 23rem;
     background: none;
     border: 1px solid var(--color-primary);
     border-radius: 1rem;
@@ -159,27 +157,29 @@
   }
   @media(max-width:976px){
     .product__menu{
-      gap: 3rem;
+     
       flex-wrap:wrap;
       justify-content: center;
     }
     .products__all{
-     flex-wrap: wrap;
-     justify-content: center;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     gap: 3rem;
     }
    
     .product__boxes{
       
       grid-template-columns: repeat(1,1fr);
+      justify-content: center;
+      align-items: center;
       
     } 
     .products  .section__heading .product__content__menu{
       max-width:45rem ;
        
      }
-     .products__all{
-      margin-top: 0rem;
-     }
+    
      .checkboxs{
       display: none;
      }
@@ -191,14 +191,11 @@
      }
      .sort__by{
       display: block;
-      margin-top:3rem ;
+    
      }
-     .products__all{
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-     }
+     
      .product__boxes{
-      margin-top: 5rem;
+      margin-top: 0rem;
      }
+    
   }
